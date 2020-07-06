@@ -1,3 +1,4 @@
+install.packages("timeDate")
 library(timeDate)
 data<-read.csv("activity.csv",header=TRUE)
 stepsByDay<-aggregate(steps~date,data,sum)
