@@ -322,4 +322,4 @@ plot(weekendMean$interval, weekendMean$steps
      , main ="Weekend", col ="red", type="l")
 ```
 
-![](markdown1_files/figure-html/panel.png)<!-- -->
+![](Figure-html/panel.png)<!-- -->
