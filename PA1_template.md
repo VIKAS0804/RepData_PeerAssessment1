@@ -211,7 +211,7 @@ hist(sumdata$steps, col = "blue"
      , main = "Total Number of Steps Per Day (with the missing data filled in)")
 ```
 
-[hist 2](https://github.com/VIKAS0804/RepData_PeerAssessment1/Figure/hist 2.png)
+[hist 2](https://github.com/VIKAS0804/RepData_PeerAssessment1/blob/master/Figure/hist%202.png)  
 7. Calculate and report the mean and median total number of steps taken per day
 
 ```r
