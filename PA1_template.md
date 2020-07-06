@@ -51,7 +51,7 @@ head(stepsByDay)
 hist(stepsByDay$steps, col = "chocolate"
      , xlab = "Steps", main = "Total Number of Steps Per Day")
 ```
-[plot 1](https://github.com/VIKAS0804/RepData_PeerAssessment1/Figure/hist 2.png)  
+[plot 1](https://github.com/VIKAS0804/RepData_PeerAssessment1/Figure/hist 1.png)  
 3. Calculating and reporting the mean and median total number of steps taken per day
 
 ```r
@@ -211,7 +211,7 @@ hist(sumdata$steps, col = "blue"
      , main = "Total Number of Steps Per Day (with the missing data filled in)")
 ```
 
-[hist 2]()
+[hist 2](https://github.com/VIKAS0804/RepData_PeerAssessment1/Figure/hist 2.png)
 7. Calculate and report the mean and median total number of steps taken per day
 
 ```r
@@ -321,4 +321,4 @@ plot(weekendMean$interval, weekendMean$steps
      , main ="Weekend", col ="red", type="l")
 ```
 
-[panel]()
+[panel](https://github.com/VIKAS0804/RepData_PeerAssessment1/Figure/panel.png)
