@@ -52,7 +52,7 @@ hist(stepsByDay$steps, col = "chocolate"
      , xlab = "Steps", main = "Total Number of Steps Per Day")
 ```
 
-![](markdown1_files/figure-html/histogram1-1.png)<!-- -->
+![](Figure/hist 1.png)<!-- -->
 3. Calculating and reporting the mean and median total number of steps taken per day
 
 ```r
@@ -97,7 +97,7 @@ with(averageSteps, plot(interval, steps
                 , col = "blue")) 
 ```
 
-![](markdown1_files/figure-html/plot1-1.png)<!-- -->
+![](Figure/average.png)<!-- -->
 3. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 Max data is:
 
@@ -212,7 +212,7 @@ hist(sumdata$steps, col = "blue"
      , main = "Total Number of Steps Per Day (with the missing data filled in)")
 ```
 
-![](markdown1_files/figure-html/histogram2-1.png)<!-- -->
+![](Figure/hist 2.png)<!-- -->
 7. Calculate and report the mean and median total number of steps taken per day
 
 ```r
@@ -322,5 +322,4 @@ plot(weekendMean$interval, weekendMean$steps
      , main ="Weekend", col ="red", type="l")
 ```
 
-![](markdown1_files/figure-html/panel-1.png)<!-- -->
-
+![](markdown1_files/figure-html/panel.png)<!-- -->
