@@ -51,8 +51,7 @@ head(stepsByDay)
 hist(stepsByDay$steps, col = "chocolate"
      , xlab = "Steps", main = "Total Number of Steps Per Day")
 ```
-
-![](Figure/hist 1.png)<!-- -->  
+[plot 1]() 
 3. Calculating and reporting the mean and median total number of steps taken per day
 
 ```r
@@ -212,7 +211,7 @@ hist(sumdata$steps, col = "blue"
      , main = "Total Number of Steps Per Day (with the missing data filled in)")
 ```
 
-![](Figure/hist 2.png)<!-- -->
+[hist 2]()
 7. Calculate and report the mean and median total number of steps taken per day
 
 ```r
@@ -322,4 +321,4 @@ plot(weekendMean$interval, weekendMean$steps
      , main ="Weekend", col ="red", type="l")
 ```
 
-![](Figure-html/panel.png)<!-- -->
+[panel]()
