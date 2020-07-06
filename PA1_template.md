@@ -321,4 +321,4 @@ plot(weekendMean$interval, weekendMean$steps
      , main ="Weekend", col ="red", type="l")
 ```
 
-[panel](https://github.com/VIKAS0804/RepData_PeerAssessment1/Figure/panel.png)
+[panel](https://github.com/VIKAS0804/RepData_PeerAssessment1/blob/master/Figure/panel.png)
